@@ -1,10 +1,10 @@
-# perfectly-not-perfect-modal
+# modal-component-library
 A library of React components created using `create-react-app`.
 
 ## Installation
 
 ```
-npm i perfectly-not-perfect-modal
+npm i modal-component-library
 ```
 
 ## How to use
@@ -14,9 +14,9 @@ This package was built to be used like a React component.
 In your project import the package
 
 ```
-import { Modal, useModal } from "perfectly-not-perfect-modal"
+import { Modal, useModal } from "modal-component-library"
 ```
-Init a "perfectly-not-perfect-modal"
+Init a "modal-component-library"
 
 ```
 const { isShowing, isToggle } = useModal();
@@ -31,3 +31,4 @@ Then use it
 ## Parameters
 
 - "yourText" = the data must be provided in the form  string
+- isShowing init at false
